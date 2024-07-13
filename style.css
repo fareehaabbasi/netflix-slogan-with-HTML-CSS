@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.body {
+    background-color: black;
+}
+
+.container {
+    height: 650px;
+    width: 100%;
+    background-image: url("back_pic.jpg") ;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.head {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.head img {
+    width: 150px;
+    max-width: 100%;
+}
+
+.head button {
+    color: white;
+    height: 32px;
+    width: 8%;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    line-height: 2.5rem;
+}
+
+.container .content h1 {
+    font-size: 2.9rem;
+    font-weight: 800;
+}
+
+ .container .content :is(h3, p) {
+    font-size: 1.5rem;
+    margin: 16px 0px 0px;
+    font-weight: lighter
+}
+
+input {
+    height: 355;
+    width: 30%;
+    background-color: transparent;
+    background-color: rgba(22, 22, 22, 0.7);
+    background-blend-mode: darken;
+    border: 0.3px solid rgb(128, 128, 128, 0.7);
+    padding: 20px;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin: 16px 0px 0px;
+    z-index: 1;
+}
+
+.content button {
+   color: white;
+   height: 3.5rem;
+   width: 18%;
+   background-color: red;
+   font-size: 1.5rem;
+   font-weight: bold;
+   border-radius: 3px;
+   border-style: none;
+   margin-left: 0.5rem;
+   cursor: pointer;
+}
+
+.sec-con {
+    height: 65vh;
+    background-color: black;
+    border-top: 8px solid rgb(35,35,35);
+    color: white;
+}
+
+.setup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 72px;
+}
+
+.img {
+    height: 400px;
+    width: 42%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight: lighter;
+}
+
+.third-con {
+    height: 60vh;
+    background-color: black;
+    border-top: 8px solid rgb(35,35,35);
+    color: white;
+}
+
+.fourth-con {
+    height: 60vh;
+    background-color: black;
+    border-top: 8px solid rgb(35,35,35);
+    color: white;
+}
+
+.i-setup {
+    padding: 150px;
+    padding-left: 200px;
+}
+
+.fifth-con {
+    height: 60vh;
+    background-color: black;
+    border-top: 8px solid rgb(35,35,35);
+    color: white;
+}
+
+.sixth-con {
+    height: 107vh;
+    background-color: black;
+    border-top: 8px solid rgb(35,35,35);
+    color: white; 
+}
+
+.L-setup {
+    text-align: center;
+    padding: 72px;
+}
+
+.L-setup h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.L-text button {
+    background-color: rgb(45,45,45);
+    height: 5.3rem;
+    width: 85%;
+    margin-left: 8%;
+    border-style: none;
+    margin: 1;
+    color: white;
+    font-size: 1.5rem;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.L-setup p {
+    margin-top: 50px;
+    font-size: 1.25rem;
+}
+
+.last-butt {
+    display: flex;
+    justify-content: center;
+}
+
+.last-butt button {
+   height: 3.7rem;
+   width: 18%;
+   cursor: pointer;
+   margin-left: 2%;
+   margin-top: auto;
+   background-color: red;
+   color: white;
+   font-size: 1.5rem;
+   font-weight: bold;
+   border-radius: 3.5px;
+   border-style: none
+}
+
+.last-butt input{
+    width: 35%;
+    margin-left: 3%;
+}
+
+.footer {
+    height: 47vh;
+    background-color: black;
+    border-top: 8px solid rgb(35,35,35);
+    cursor: pointer;
+    }
+
+.foot-panel1 p {
+    font-size: 1rem;
+    text-decoration: underline;
+    margin-left: 9.3rem;
+    margin-top: 4rem;
+    margin-bottom: -2.6rem;
+    color: rgb(255,255,255,0.7)
+}
+
+.foot-panel2 {
+    height: 20vh;
+    width: 70%;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: -1rem;
+}
+
+ul {
+    font-size: 1rem;
+}
+
+ul a {
+    color: rgba(255,255,255,0.7);
+    display: block;
+    font-size: 0.875rem;
+}
+
+.button button {
+    background-color: transparent;
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 0.01rem solid rgb(133, 133, 133);
+    border-radius: 3.1px;
+    height: 3.4vh;
+    width: 10%;
+    color: white;
+    margin-left: 9.3rem;
+    margin-top: -3rem;
+    margin-bottom: 1.7rem;
+}
+
+.button span {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.875rem;
+    margin-left: 9.3rem;
+}
+
+
